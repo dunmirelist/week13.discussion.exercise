@@ -2,8 +2,8 @@
 // Curt Dunmire
 // Spring 2020
 // Web233 Javascript
-// Date: 04/18/20
-// Assignment #13, Discussion & Exercise
+// Date: 04/12/20
+// Assignment #12
 
 
 
@@ -44,7 +44,7 @@ function SaveCookie() {
 
 	//	keeps for a year
 	date.setTime(date.getTime() + Number(365) * 3600 * 1000);
-	document.cookie = "DunmireShopList" + "=" + escape(ShoppingList.join(",")) + "; path=/week13.discussion.exercise/; expires = " + date.toGMTString();
+	document.cookie = "DunmireShopList" + "=" + escape(ShoppingList.join(",")) + "; path=/; expires = " + date.toGMTString();
 }
 
 
